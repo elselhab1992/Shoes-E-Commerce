@@ -1,0 +1,20 @@
+.recommended-container {
+  margin-left: 20rem;
+  padding: 10px;
+}
+
+.recommended-container h2 {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 670px) {
+  .recommended-container {
+    margin: 10px auto;
+    padding: 5px;
+  }
+
+  .recommended-container h2 {
+    margin-bottom: 5px;
+    margin-left: 10px;
+  }
+}

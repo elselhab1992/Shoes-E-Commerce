@@ -1,0 +1,33 @@
+.sidebar {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid #ededed;
+  position: fixed;
+}
+
+.sidebar-logo {
+  margin: 20px auto;
+}
+
+.sidebar-logo h5 {
+  font-size: 40px;
+}
+
+@media (max-width: 670px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 960px) {
+  .sidebar {
+    width: 20%;
+  }
+
+  .sidebar-logo {
+    margin-left: 10px;
+  }
+}
